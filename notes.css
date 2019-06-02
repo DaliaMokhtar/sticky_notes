@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background: rgb(180, 180, 180);
+    list-style-type: none;
+}
+ .notes{
+    width: 1000px;
+    height: 100%;
+    margin: 0px;
+    background: rgb(180, 180, 180);
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(25, 25,25);
+    position: relative;
+    top:2px;
+    font-weight: lighter;
+}
+.one{
+    position: relative;
+    float: left;
+    background-color: rosybrown;
+    font-family:  "Reenie Beanie";
+    width:200px;
+    height: 190px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 3px 5px 10px gray;
+    transform: rotate(-12deg);
+    margin: 40px;
+}
+
+.two{
+    position: relative;
+    float: left;
+    background-color: green;
+    font-family:  "Reenie Beanie";
+    width:200px;
+    height: 190px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 3px 5px 10px gray;
+    transform: rotate(12deg);
+    margin: 40px;
+}
+
+.three{
+    position: relative;
+    float: left;
+    background-color:purple;
+    font-family:  "Reenie Beanie";
+    width:200px;
+    height: 190px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 3px 5px 10px gray;
+    transform: rotate(-10deg);
+    margin: 40px;
+}
